@@ -1,0 +1,26 @@
+[project]
+name = "hse-ai-test"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Pavel", email = "60060559+pyrogn@users.noreply.github.com" }
+]
+dependencies = [
+    "pandas>=2.2.2",
+    "matplotlib>=3.9.2",
+    "numpy>=2.1.1",
+    "seaborn>=0.13.2",
+    "pip>=24.2",
+    "setuptools>=74.1.1",
+    "scikit-learn>=1.5.1",
+    "ipykernel>=6.29.5",
+]
+requires-python = ">= 3.8"
+
+[project.scripts]
+"hse-ai-test" = "hse_ai_test:main"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
